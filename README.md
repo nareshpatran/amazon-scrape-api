@@ -41,7 +41,7 @@ Traditional web scrapers break when websites update their HTML structure. **Pang
 </tr>
 </table>
 
-**🌏 International Users:** Prefer email or Telegram? Contact shiyang@pangolinfo.com  
+**🌏 International Users:** Prefer email or Telegram? Contact csm@pangolinfo.com  
 **🇨🇳 中国用户：** 添加微信 `Pangolin-Scraper` 备注「GitHub免费额度」
 
 ---
