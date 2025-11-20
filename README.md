@@ -122,6 +122,65 @@ curl -X POST http://scrapeapi.pangolinfo.com/api/v1/scrape \
 ---
 ---
 
+## 📊 What's Included?
+
+| Feature | Open Source Parser | Free API (200 calls) | Paid API |
+|---------|-------------------|---------------------|----------|
+| **Parser Template Code** | ✅ Full access (Go) | ❌ | ❌ |
+| **Monthly API Calls** | ∞ (self-hosted) | ✅ 200 free | ✅ Custom volume |
+| **Supported Platforms** | Amazon search only | ✅ All platforms | ✅ All platforms |
+| **Auto Page Structure Updates** | 🔧 Manual updates | ✅ Automatic | ✅ Automatic |
+| **Anti-Bot Handling** | 🔧 DIY (proxies, CAPTCHA) | ✅ Built-in | ✅ Advanced |
+| **Data Formats** | JSON only | JSON, HTML, Markdown | JSON, HTML, Markdown |
+| **Support** | 💬 Community (GitHub) | ✅ Email support | ✅ Priority support |
+| **Uptime SLA** | N/A (self-hosted) | 99% | 99.9% |
+| **Use Case** | Learning, testing | Small projects | Production apps |
+
+**💡 Recommendation:**
+- **Learning web scraping?** → Start with open source parser
+- **Building a side project?** → Use free API tier
+- **Running a business?** → Upgrade to paid for reliability
+
+---
+
+## 🛠️ Supported Platforms & Data
+
+<table>
+<tr>
+<td width="25%" align="center">
+  <img src="https://logo.clearbit.com/amazon.com" width="64" height="64" alt="Amazon">
+  <br><strong>Amazon</strong>
+</td>
+<td width="25%" align="center">
+  <img src="https://logo.clearbit.com/walmart.com" width="64" height="64" alt="Walmart">
+  <br><strong>Walmart</strong>
+</td>
+<td width="25%" align="center">
+  <img src="https://logo.clearbit.com/shopify.com" width="64" height="64" alt="Shopify">
+  <br><strong>Shopify</strong>
+</td>
+<td width="25%" align="center">
+  <img src="https://logo.clearbit.com/ebay.com" width="64" height="64" alt="eBay">
+  <br><strong>eBay</strong>
+</td>
+</tr>
+</table>
+
+### Amazon Data Fields (30+ fields)
+- Product Details: ASIN, title, price, images, variants
+- Rankings: Best Sellers Rank, category position
+- Reviews: Rating, review count, top reviews
+- Seller Info: FBA/FBM, seller name, shipping
+- Inventory: Stock status, availability date
+
+### Walmart, eBay, Shopify
+Similar comprehensive data extraction for each platform.
+
+📖 **Full API Documentation:** https://docs.pangolinfo.com/api-reference
+
+---
+---
+
 ## 💼 Real-World Use Cases
 
 ### 🛍️ For E-commerce Sellers
